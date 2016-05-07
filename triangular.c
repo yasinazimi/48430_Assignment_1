@@ -1,6 +1,6 @@
 /**********************************************************************
 48430 Embedded C - Assignment 1
-Name: Mohammad Yasin Azimi
+Name: Yasin Azimi
 Student ID: 11733490
 Date of submission: 20/04/2016
 A brief statement on what you could achieve (less than 50 words):
