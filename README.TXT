@@ -1,0 +1,1 @@
+This assignment solely uses C to print out the triangular numbers in the shape of 8 ball pool game.
