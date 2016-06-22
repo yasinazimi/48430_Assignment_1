@@ -3,21 +3,13 @@
 Name: Yasin Azimi
 Student ID: 11733490
 Date of submission: 20/04/2016
-A brief statement on what you could achieve (less than 50 words):
--> Hoping to achieve full mark.
-
-A brief statement on what you could NOT achieve (less than 50 words):
--> Nothing that can not be achieved.
-
 **********************************************************************/
-
 
 
 /**********************************************************************
 List of header files - do NOT use any other header files.
 **********************************************************************/
 #include<stdio.h>
-
 
 
 /**********************************************************************
@@ -27,7 +19,6 @@ may define your own functions if required.
 char isodd(int);			/*Check if an integer is odd*/
 char istriangle(int);		/*Check if an integer is a triangular number*/
 void printtriangle(int);	/*Print a triangle corresponding to an int*/
-
 
 
 /**********************************************************************
@@ -56,7 +47,6 @@ int main(void){
 }
 
 
-
 /**********************************************************************
 Check if an integer n is odd.
 return 1 - if odd
@@ -65,7 +55,6 @@ return 0 - otherwise
 char isodd(int n){
     return n % 2 == 1;  /*Checks the remainder of the divisable of n by 2*/
 }
-
 
 
 /**********************************************************************
@@ -81,7 +70,6 @@ char istriangle(int n){
 
     return triangle == n;
 }
-
 
 
 /**********************************************************************
@@ -108,4 +96,3 @@ void printtriangle(int n){
         }
     }
 }
-
