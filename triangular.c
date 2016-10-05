@@ -33,16 +33,15 @@ int main(void){
 		int max = 0;    /*Initialising the largest number by assigning a value of zero to the keyword 'max'*/
 		int k;  /*Initialising k*/
 		for (k = 1; k <= length; k++) { /*Assigning an integer value of 1 to variable 'k' with a condition to check whether 'k' is less then or equal to the keyword 'length' which will then proceed to the 'if' statement below and hence, continues the iterations 'k++'*/
-        if (!isodd(k) && istriangle(k)) { /*Checks if the input value from the user is not an odd (even) AND triangular*/
-			k < 100 ? printf("   %d", k) : printf("  %d", k);	/*Another method for writing an if/else statement. It checks if the input value is less than 100; if so it prints out 3 spaces between the output of the even triangular numbers below 100. Else it prints out 2 spaces between the output of the even triangular numbers above 100*/
-            max = k;    /*This updates the largest even number in the triangle*/
-        }
-    }
-    printf(" \n"); /*Prints out a 'space' after the triangular number and continues on to the next line*/
-    printf("The last even triangular number is %d. Printing the triangle:\n", max); /*Prints out the last even triangular number along with the triangle*/
-    printtriangle (max); /*Prints out the complete triangle up to the highest even number*/
+			if (!isodd(k) && istriangle(k)) { /*Checks if the input value from the user is not an odd (even) AND triangular*/
+				k < 100 ? printf("   %d", k) : printf("  %d", k);	/*Another method for writing an if/else statement. It checks if the input value is less than 100; if so it prints out 3 spaces between the output of the even triangular numbers below 100. Else it prints out 2 spaces between the output of the even triangular numbers above 100*/
+				max = k;    /*This updates the largest even number in the triangle*/
+			}
+		}
+		printf(" \n"); /*Prints out a 'space' after the triangular number and continues on to the next line*/
+		printf("The last even triangular number is %d. Printing the triangle:\n", max); /*Prints out the last even triangular number along with the triangle*/
+		printtriangle (max); /*Prints out the complete triangle up to the highest even number*/
 	}
-		
     return 0;
 }
 
